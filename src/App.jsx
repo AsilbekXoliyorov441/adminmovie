@@ -22,8 +22,7 @@ import {
  * Tailwind kerak bo‘ladi (Vite + Tailwind).
  */
 
-const XANO_BASE = "https://x8ki-letl-twmt.n7.xano.io/api:j6hO02gL";
-const API_BASE = import.meta.env.DEV ? "/xano" : XANO_BASE;
+const API_BASE = "/xano";
 
 // ---------- small utils ----------
 const cx = (...a) => a.filter(Boolean).join(" ");
